@@ -2,7 +2,7 @@ pipeline {
     agent { label 'maven' }
 
     environment {
-        PATH = "/opt/apache-maven-3.9.4/bin:$PATH"
+        PATH = "/opt/apache-maven-3.9.6/bin:$PATH"
     }
 
     stages {
