@@ -1,4 +1,4 @@
-def registry = 'trial4adu4j.jfrog.io'
+def registry = 'https://trial4adu4j.jfrog.io'
 
 
 pipeline {
