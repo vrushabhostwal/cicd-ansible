@@ -36,7 +36,7 @@ pipeline {
                           "files": [
                             {
                               "pattern": "jarstaging/(*)",
-                              "target": "vru-libs-snapshot-libs-release-local/",
+                              "target": "libs-snapshot-local/",
                               "flat": "false",
                               "props" : "${properties}",
                               "exclusions": [ "*.sha1", "*.md5"]
